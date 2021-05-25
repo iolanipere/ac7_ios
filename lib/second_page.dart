@@ -33,7 +33,7 @@ class SecondPage extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              color: Colors.blueGrey,
+              color: Colors.cyan,
               onPressed: () {
                 Navigator.of(context).pop(_textController.text);
               },
